@@ -1,0 +1,27 @@
+Implement Dijkstra’s algorithm for single source shortest path problem for a given directed graph using an adjacency matrix representation of the graph.
+
+Below is example input and output
+
+input :
+6 11 0 <<--(size, edges, start) 
+0 1 50
+0 2 10
+0 4 45
+1 2 15
+1 4 10
+2 0 20
+2 3 15
+3 1 20
+3 4 35
+4 3 30
+5 4 3
+
+output : 
+0  2  10 
+0  3  25 
+0  1  45 
+0  4  45 
+0  5  INF (no path)
+
+The program will be tested as:   ./a6 < graphdatafile
+

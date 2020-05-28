@@ -1,0 +1,14 @@
+Implementation of inversion count algorithm
+
+I implemented two way to figure out the inversion count.
+
+1. Naive (brute force) algorithm (a4b)
+2. Using merge sort piggyback idea (a4m)
+
+If algorithm is run on Linux machine, the test command will be ./a4b <data-set-size>  or  ./a4m <data-set-size>
+No matter what the way to find inversion count, the inversion count should be same. 
+The key difference between two methods is time spending. 
+We can notice that using merge sort piggyback idea spend much less time. 
+Brute force algorithm has O(n^2) time complexity but merge sort piggyback algorithm has O(nlogn) time complexity.
+
+

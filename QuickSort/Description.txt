@@ -1,0 +1,28 @@
+Implementation of quick sort with different pivot.
+
+This algorithm will show that the position of pivot will affect the time spending of quick sort.
+
+It has 4 main file (qsortf, qsortl, qsortm and qsortr).
+It means set the pivot as first element, last element, median element, and random element, respectively.
+
+If you run each main file, then you can get the number of comparison which affect the time spending of quick sort.
+The size of the array is 200000.
+
+below is output.
+
+Pivot is first.
+Number of comparison: 4278149
+
+Pivot is last.
+Number of comparison: 4231149
+
+Pivot is median.
+Number of comparison: 3675415
+
+Pivot is random.
+Number of comparison: 4345803
+
+
+The quick sort has the best efficiency when the array is distributed as equally as possible based on the pivot.
+
+You can change size of the array and elements in array by changing number in srand function.

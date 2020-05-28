@@ -1,0 +1,16 @@
+Pivot is first.
+Number of comparison: 4278149
+
+Pivot is Last.
+Number of comparison: 4231149
+
+Pivot is median.
+Number of comparison: 3675415
+
+Pivot is random.
+Number of comparison: 4219841
+
+My program used same quicksort for each 4 cases.
+As you can see the result, when pivot is median, number of comparision is most little.
+This is becuase, qsort is fastest when pivot is actrual median value. In this case qsort has minum number of comparision.
+That is why set the pivot is important.

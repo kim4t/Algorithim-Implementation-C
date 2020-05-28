@@ -1,0 +1,14 @@
+Implementation of slow sort (Bubble, Insertion, Selection)
+
+The purpose of this implementation is that showing how long time will be needed to sort the array with slow sorting and why these slow sorting is not used in field.
+(Main file is a2.c)
+
+First of all, program generates random array with size 1000000 
+Then, program will sort the array by using bubble sort. (The sorting size is 50000)
+After sorting is completed, the program shows time spending and re-generate random array.
+In makeArr function, I used srand function with certain integer, so it will generate exactly same array as before. (This job is needed because different elements in array can affect the result)
+After generating random array again, the program will sort the array by using insertion sort and shows time spending and generate random array again.
+Finally, program will sort the array with selection sort, shows time, array will be generated again.
+If this cycle is done, then program will start sorting again, start from the beginning. However, the sorting size will be increased 5000.
+This program will never end.  
+We can notice that the very huge time will be needed to sort array with slow sorting if sorting size is big.
